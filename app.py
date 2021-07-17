@@ -53,7 +53,7 @@ def import_and_predict():
      M2 = np.float32([[1, 0.5, 0],
              	[0, 1  , 0],
             	[0, 0  , 1]])
-     sheared_imgx = cv.warpPerspective(imga,M2,(int(cols*1.5),int(rows*1.5)))
+     sheared_imgx = cv2.warpPerspective(imga,M2,(int(cols*1.5),int(rows*1.5)))
      st.image(sheared_imgx,  use_column_width=True)
      
   else:
@@ -62,7 +62,7 @@ def import_and_predict():
              	[0.5, 1  , 0],
             	[0, 0  , 1]])
      
-     sheared_imgy = cv.warpPerspective(imga,M1,(int(cols*1.5),int(rows*1.5)))
+     sheared_imgy = cv2.warpPerspective(imga,M1,(int(cols*1.5),int(rows*1.5)))
      st.image(sheared_imgy,  use_column_width=True)
   return 0 
     
