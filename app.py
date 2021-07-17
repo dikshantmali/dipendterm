@@ -64,8 +64,6 @@ def import_and_predict():
      
      sheared_imgy = cv.warpPerspective(imga,M1,(int(cols*1.5),int(rows*1.5)))
      st.image(sheared_imgy,  use_column_width=True)
-     result = cv2.bitwise_and(imga,imgb)
-  st.image(result,  use_column_width=True)
   return 0 
     
 if st.button("Click To Perform Operation"):
