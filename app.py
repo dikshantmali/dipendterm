@@ -12,7 +12,7 @@ st.set_option('deprecation.showfileUploaderEncoding', False)
 #from keras.models import load_model
 
 html_temp = """
-   <div class="" style="background-color:salmon;" >
+   <div class="" style="background-color:green;" >
    <div class="clearfix">           
    <div class="col-md-12">
    <center><p style="font-size:40px;color:white;margin-top:10px;">Dikshant Mali - PIET18CS049</p></center> 
